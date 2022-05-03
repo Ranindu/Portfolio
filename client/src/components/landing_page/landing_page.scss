@@ -1,7 +1,43 @@
+@import '../../global.scss';
+
 #landingPage {
     height: 100vh;
     background-color: #0d0208;
-}
-.mainHeader {
-    font-family: $satisfy;
+    .nav {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        .wrapper {
+            display: flex;
+            width: 50vw;
+            justify-content: space-between;
+            margin-top: 4vw;
+            a {
+                text-decoration: none;
+                color: #008f11;
+                letter-spacing: 1px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                &:hover {
+                    color: rgb(108, 218, 181);
+                }
+            }
+        }
+        
+    }
+    .title {
+        margin-left: 3vw;
+        .mainHeader {
+            font-family: $titleFont7;        
+            color: #be4249;
+            font-size: 7.5em;
+            font-weight: 350;
+        }
+        .subHeader {
+            font-family: $titleFont4;
+            color: #008f11;
+            font-size: 3em;
+        }    
+    }
+
 }

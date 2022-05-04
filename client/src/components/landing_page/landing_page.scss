@@ -25,19 +25,34 @@
         }
         
     }
-    .title {
-        margin-left: 3vw;
-        .mainHeader {
-            font-family: $titleFont7;        
-            color: #be4249;
-            font-size: 7.5em;
-            font-weight: 350;
-        }
-        .subHeader {
-            font-family: $titleFont4;
-            color: #008f11;
-            font-size: 3em;
-        }    
-    }
+    .bottom_main {
+        display: flex;
 
+        .left_title {
+            margin: 15vh 0 0 8vw;
+            flex: 0.5;
+            .mainHeader {
+                font-family: $titleFont7;   //Delete unwanted fonts global.scss     
+                color: #be4249;
+                font-size: 7.5em;
+                font-weight: 350;
+                letter-spacing: -10px;
+                line-height: 125px;
+            }
+            .subHeader {
+                font-family: $titleFont4;
+                color: #008f11;
+                font-size: 2.4em;
+            }    
+        }
+        .right_image {
+            flex: 0.5;
+            .main_image {
+                border-radius: 50%;
+                height: 60%;
+                margin: 15vh 0 0 5vh;
+        }
+     }
+        
+    }
 }

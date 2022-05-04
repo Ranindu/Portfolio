@@ -1,5 +1,6 @@
 import React from 'react'
 import './landing_page.scss'
+import main_image from '../../assets/images/main_image.png'
 
 export default function Landing_page() {
   return (
@@ -11,11 +12,15 @@ export default function Landing_page() {
           <a className='contact' href="#contact">CONTACT</a>
         </div>
       </div>
-      <div className='title'>
-        <h1 className='mainHeader'>Ranindu <br/> Abeyratne</h1>
-        <h2 className='subHeader'>deVops enGineeR</h2>
+      <div className='bottom_main'>
+        <div className='left_title'>
+          <h1 className='mainHeader'>Ranindu <br/> Abeyratne</h1>
+          <h2 className='subHeader'>deVops enGineeR</h2>
+        </div>
+        <div className='right_image'>
+          <img className='main_image' src={main_image} alt="my face bitch" />
+        </div>
       </div>
-
     </div>
   )
 }

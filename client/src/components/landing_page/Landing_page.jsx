@@ -14,7 +14,7 @@ export default function Landing_page() {
       </div>
       <div className='bottom_main'>
         <div className='left_title'>
-          <h1 className='mainHeader'>Ranindu <br/> Abeyratne</h1>
+          <h1 className='mainHeader'>Poepieee <br/> Abeyratne</h1>
           <h2 className='subHeader'>deVops enGineeR</h2>
         </div>
         <div className='right_image'>

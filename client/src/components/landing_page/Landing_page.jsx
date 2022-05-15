@@ -1,6 +1,6 @@
 import React from 'react'
 import './landing_page.scss'
-import main_image from '../../assets/images/main_image.png'
+import main_image from '../../assets/images/cloud_image1.png'
 
 export default function Landing_page() {
   return (
@@ -18,7 +18,7 @@ export default function Landing_page() {
           <h2 className='subHeader'>deVops enGineeR</h2>
         </div>
         <div className='right_image'>
-          <img className='main_image' src={main_image} alt="my face bitch" />
+          <img className='main_image' src={main_image} alt="my picture" />
         </div>
       </div>
     </div>

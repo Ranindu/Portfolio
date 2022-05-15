@@ -49,8 +49,12 @@
             flex: 0.5;
             .main_image {
                 border-radius: 50%;
-                height: 60%;
-                margin: 15vh 0 0 5vh;
+                height: 50%;
+                margin: 10vh 0 0 15vw;
+                border-width: 1px;
+                border-style: solid;
+                border-color: grey;
+                box-shadow: 0 30px 40px rgba(0,0,0,.1);
         }
      }
         
